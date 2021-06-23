@@ -38,7 +38,7 @@ const getAnimals = (formData = {}) => {
       if (!response.ok) {
         return alert('Error: ' + response.statusText);
       }
-      return response.json():
+      return response.json();
     })
     .then(animalData => {
       console.log(animalData);
